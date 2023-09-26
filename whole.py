@@ -38,7 +38,7 @@ class Restaurant:
         return self.name
 
     @classmethod
-        def all(cls):
+    def all(cls):
         return cls.all_restaurants
 
     def add_review(self, customer, rating):
