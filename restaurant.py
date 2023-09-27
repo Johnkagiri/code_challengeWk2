@@ -1,3 +1,6 @@
+from customer import *
+from review import *
+
 class Restaurant:
     all_restaurants = []
 
